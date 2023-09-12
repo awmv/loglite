@@ -33,3 +33,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+- name: Debug Tokens
+  run: |
+    echo "GITHUB_TOKEN: $GITHUB_TOKEN"
+    echo "NPM_TOKEN: $NPM_TOKEN"
