@@ -1,0 +1,5 @@
+---
+"loglite": patch
+---
+
+Testing deployment
